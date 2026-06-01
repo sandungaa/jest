@@ -33,4 +33,6 @@ describe('Calculator', () => {
   test('divide method throws an error when dividing by zero', () => {
     expect(() => calculator.divide(10, 0)).toThrowError('dividing by zero is not allowed');
   });
+
+
 });
